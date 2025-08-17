@@ -1,0 +1,24 @@
+table, th, td {
+  border:1px solid black;
+}
+h1, h2 {
+    font-family: 'Verdana';
+} 
+li, p, a, marquee, label, th, input, div, td {
+    font-family: 'Verdana';
+} 
+a {
+  color: black;
+}
+input {
+  background-color: gray;
+}
+
+.intro {
+    -moz-column-count: 2;
+    -moz-column-gap: 40px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 40px;
+    column-count: 2;
+    column-gap: 40px;   
+}
